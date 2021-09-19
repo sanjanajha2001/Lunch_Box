@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #33ccff 0%, #ffccff 100%)
+            /* font-family: 'Arial';   */
+        }
+        
+        .login {
+            width: 382px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 80px;
+            background: #05fafa;
+            border-radius: 15px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #060707;
+            padding: 20px;
+        }
+        
+        label {
+            color: #0a0a0a;
+            font-size: 17px;
+        }
+        
+        #Uname {
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 10px;
+        }
+        
+        #Email {
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 10px;
+        }
+        
+        #Pass {
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+        
+        #log {
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            padding-left: 7px;
+            color: blue;
+        }
+        
+        span {
+            color: black;
+            font-size: 17px;
+        }
+        
+        a {
+            float: right;
+            background-color: rgb(247, 239, 239);
+        }
+        
+        .btn {
+            background-color: #33ccff 0%;
+            color: black;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+        
+        .btn:hover {
+            opacity: 1;
+            font-size: 17px;
+        }
+    </style>
+    <!-- <link rel="stylesheet" type="text/css" href="project.css">-->
+</head>
+
+<body>
+    <br>
+    <div class="login">
+        <form id="login" method="get" action="login.php"><label><b>User Name </b></label><input type="text" name="Uname" id="Uname" placeholder=""><br><br>
+            <!-- <label><b>Email </b></label><input type="Email" name="Email" id="Email" placeholder=""></br><br>--><label><b>Password </b></label><input type="Password" name="Pass" id="Pass" placeholder=""><br><br>
+            <!-- <input type="button" name="log" id="log" value="Log"></button>--><button type="submit" class="btn">Login</button><br><br><input type="checkbox" id="check"><span>Remember me</span><br><br>Forgot
+            <a href="#"></a>password
+            <a href="#"></a>
+    </div>
+    </div>
+</body>
+
+</html>
